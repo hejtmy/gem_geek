@@ -1,8 +1,11 @@
 # GemGeek
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gem_geek`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is ruby gem to collect data from BGG and 
 
-TODO: Delete this and the text above, and describe your gem
+it relies heavilly and was also heavily modified from the gem board-game-gem by AcceptableIce
+https://github.com/AcceptableIce/board-game-gem/
+
+Because I needed to make many changes to the original gemm, including play download an much more, I decided to use the code and start a new project. Each file is commented in its header to designate original author
 
 ## Installation
 

@@ -24,7 +24,7 @@ module GemGeek
 				element = "boardgame"
 			end
 
-			item_xml = GemGeek.request_xml(path, options, api)		
+			item_xml = BGGAPI.request_xml(path, options, api)		
 			item_xml.css(element).wrap("<item_data></item_data>")		
 			item_xml.css("item_data").each do |item_data|
 				item_list.push(BGGItem.new(item_data, api))

@@ -4,7 +4,7 @@
 
 require 'json'
 module GemGeek
-	class BGGGetter
+	module BGGGetter
 		def self.get_item(id, statistics = false, api = 2, options = {})
 			options[:id] = id
 			options[:stats] = statistics ? 1 : 0
@@ -24,7 +24,7 @@ module GemGeek
 				element = "boardgame"
 			end
 
-			item_xml = BoardGameGem.request_xml(path, options, api)		
+			item_xml = GemGeek.request_xml(path, options, api)		
 			item_xml.css(element).wrap("<item_data></item_data>")		
 			item_xml.css("item_data").each do |item_data|
 				item_list.push(BGGItem.new(item_data, api))
@@ -35,19 +35,19 @@ module GemGeek
 
 		def self.get_family(id, options = {})
 			options[:id] = id
-			family = BGGFamily.new(BoardGameGem.request_xml("family", options))
+			family = BGGFamily.new(BGGAPI.request_xml("family", options))
 			family.id == 0 ? nil : family
 		end
 
 		def self.get_user(username, options = {})
 			options[:name] = username
-			user = BGGUser.new(BoardGameGem.request_xml("user", options))
+			user = BGGUser.new(BGGAPI.request_xml("user", options))
 			user.id == 0 ? nil : user
 		end
 
 		def self.get_collection(username, options = {})
 			options[:username] = username
-			collection_xml = self.request_xml("collection", options)
+			collection_xml = BGGAPI.request_xml("collection", options)
 			if collection_xml.css("error").length > 0
 				nil
 			else
@@ -57,7 +57,7 @@ module GemGeek
 
 		def self.search(query, options = {})
 			options[:query] = query
-			xml = self.request_xml("search", options)
+			xml = BGGAPI.request_xml("search", options)
 			{
 				:total => xml.at_css("items")["total"].to_i,
 				:items => xml.css("item").map { |x| BGGSearchResult.new(x) }
@@ -66,10 +66,13 @@ module GemGeek
 	end
 end
 
-require_relative 'data_types/bgg_base'
-require_relative 'data_types/bgg_item'
-require_relative 'data_types/bgg_family'
-require_relative 'data_types/bgg_user'
-require_relative 'data_types/bgg_collection'
-require_relative 'data_types/bgg_collection_item'
-require_relative 'data_types/bgg_search_result'
+require 'gem_geek/bgg_api'
+
+require 'gem_geek/data_types/bgg_base'
+require 'gem_geek/data_types/bgg_base'
+require 'gem_geek/data_types/bgg_item'
+require 'gem_geek/data_types/bgg_family'
+require 'gem_geek/data_types/bgg_user'
+require 'gem_geek/data_types/bgg_collection'
+require 'gem_geek/data_types/bgg_collection_item'
+require 'gem_geek/data_types/bgg_search_result'

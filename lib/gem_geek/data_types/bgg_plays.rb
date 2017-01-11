@@ -61,7 +61,7 @@ module GemGeek
 		def before_date
 		end
 
-		def at_location
+		def at_location(name)
 			select(:location, name)
 		end
 

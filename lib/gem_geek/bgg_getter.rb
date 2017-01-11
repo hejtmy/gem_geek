@@ -75,13 +75,11 @@ module GemGeek
 				plays_xml = BGGAPI.request_xml("plays", options)
 				num_results = plays_xml.root.children.count
 				puts num_results
-				plays_xml.css('play').each do |play| #select all play elements under plays
-					
-				end
+				plays.add_plays(plays_xml)
 				break
-				break if num_results < 201
+				#break if num_results < 201
 			end
-			plays_xml
+			plays
 		end
 		
 		

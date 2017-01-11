@@ -4,10 +4,7 @@ module GemGeek
     	
 		def initialize(xml = nil)
 			@plays = []
-			@ids = []
-			if xml != nil
-				add_plays(xml)
-			end
+			if xml != nil then add_plays(xml) end
 		end
 		
 		def add_plays(plays_xml)
@@ -19,16 +16,25 @@ module GemGeek
 
 		# Adds a new BGGPlay into the array
 		def add(play)
-			#if play == nil then return
+			if play == nil then return end
 			# checks if the play is already int he array
-			
+			if play_exists?(play.id)
+				#shoudl note number of non added games
+				puts 'play already included'
+				return false
+			end
 			# if not
-			plays.push(play)
-			ids.push(play.id)
+			@plays.push(play)
+			return true
 		end
-
+		
+		def play_exists?(id)
+			@plays.each { |play| if play.id == id then return true end}
+			return false
+		end
+		
 		def remove(id)
-			if id > 1
+			if id < 1
 				puts 'selected play not in the array'
 			end
 			# gets the index
@@ -37,13 +43,7 @@ module GemGeek
 		end
 
 		def game_name(name)
-			ids = []
-			plays.each do |play|
-				if play.name == name 
-					ids.push(play.id)
-				end
-			end
-			select(ids)
+			select(:bg_name, name)
 		end
 
 		def game_id(id)
@@ -62,35 +62,23 @@ module GemGeek
 		end
 
 		def at_location
-			ids = []
-			@plays.each do |play|
-
-			end
+			select(:location, name)
 		end
 
 		def first()
 
 		end
 
-		def query(key, value)
+		def select(key, value)
 			#converts key string to parameter
-			# selects if 
-
-			ids = []
-			plays = []
-			plays.each do |play|
-				if play.name == name 
-					ids.push(play.id)
-				end
+			# selects if
+			selected = []
+			plays_r = BGGPlays.new()
+			@plays.each do |play|
+				plays_r.add(play) if play.send(key) == value 
 			end
-			select(ids)
-
+			return plays_r
 		end
 
-		def select_plays(ids)
-			#gets indices of ids in the :id parameter
-			#selects those indices of plays and ids
-			#returns itself
-		end
     end
 end

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plays username="Tatsukochi" userid="406390" total="517" page="1" termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">
 <play id="21376325" date="2017-01-01" quantity="4" length="0" incomplete="0" nowinstats="0" location="Nižbor">
-			<item name="One Night Ultimate Werewolf" objecttype="thing" objectid="147949">
-				<subtypes>
-										<subtype value="boardgame"/>
-										<subtype value="boardgameimplementation"/>
-										<subtype value="boardgameintegration"/>
-									</subtypes>
-			</item>
-									<players>
-									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
-						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
-						<player username="" userid="0" name="Echy" startposition="3" color="" score="" new="0" rating="0" win="0"/>
-						<player username="" userid="0" name="Katka" startposition="4" color="" score="" new="0" rating="0" win="0"/>
-						<player username="" userid="0" name="Maťka" startposition="5" color="" score="" new="0" rating="0" win="0"/>
-						<player username="" userid="0" name="Sam" startposition="6" color="" score="" new="0" rating="0" win="0"/>
-						</players>
-					</play>
+	<item name="One Night Ultimate Werewolf" objecttype="thing" objectid="147949">
+		<subtypes>
+			<subtype value="boardgame"/>
+			<subtype value="boardgameimplementation"/>
+			<subtype value="boardgameintegration"/>
+		</subtypes>
+	</item>
+	<players>
+	<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+	<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+	<player username="" userid="0" name="Echy" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+	<player username="" userid="0" name="Katka" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+	<player username="" userid="0" name="Maťka" startposition="5" color="" score="" new="0" rating="0" win="0"/>
+	<player username="" userid="0" name="Sam" startposition="6" color="" score="" new="0" rating="0" win="0"/>
+	</players>
+</play>
 	<play id="21352956" date="2016-12-31" quantity="1" length="150" incomplete="0" nowinstats="0" location="Nižbor">
 			<item name="Mansions of Madness: Second Edition" objecttype="thing" objectid="205059">
 				<subtypes>

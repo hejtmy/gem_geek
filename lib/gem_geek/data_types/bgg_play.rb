@@ -11,8 +11,8 @@ module GemGeek
 		        @incomplete = nil
 		        @nowinstats = nil 
 		        @location = xml['location']
-		        @bg_name = get_string(xml, "name")
-		        @bg_id = get_integer(xml, 'objectid')
+		        @bg_name = get_string(xml, 'item', 'name')
+		        @bg_id = get_integer(xml, 'item', 'objectid')
 		        @players = add_players(xml)
 			else
 		        @id = -1

@@ -69,6 +69,7 @@ module GemGeek
 			options[:page] = 0 
 			# this gets a bit more complicated 
 			# BGG allows only downloading games in bunch of 201, so we need to loop until we get all of it
+			plays = BGGPlays.new()
 			while true do
 				options[:page] += 1
 				plays_xml = BGGAPI.request_xml("plays", options)

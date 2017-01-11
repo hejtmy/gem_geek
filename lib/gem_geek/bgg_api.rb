@@ -4,6 +4,7 @@
 # query string
 
 require 'nokogiri'
+require 'open-uri'
 
 module BGGAPI
   BGG_API2_URL = "https://boardgamegeek.com/xmlapi2"

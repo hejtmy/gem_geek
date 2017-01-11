@@ -1,11 +1,10 @@
 # GemGeek
 
-This is ruby gem to collect data from BGG and 
-
-it relies heavilly and was also heavily modified from the gem board-game-gem by AcceptableIce
+This is ruby gem to collect data from BGG and it relies heavilly and was also extensively modified from the gem board-game-gem by AcceptableIce
 https://github.com/AcceptableIce/board-game-gem/
 
-Because I needed to make many changes to the original gemm, including play download an much more, I decided to use the code and start a new project. Each file is commented in its header to designate original author
+Because I needed to make many changes to the original gem, including play download an more, I decided to use the code and start a new project. 
+Each file is commented in its header to designate original author
 
 ## Installation
 

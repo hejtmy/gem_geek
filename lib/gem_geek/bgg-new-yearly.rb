@@ -134,7 +134,7 @@ class NewToYouYear
         if previous_plays.xpath("//item[@objectid='" + objectid.to_s + "']").any? 
           #puts "deleting game " + _games[objectid][:name].to_s
           _games.delete(objectid)
-        end        
+        end
       end
     end
 
@@ -144,4 +144,39 @@ class NewToYouYear
 
   public :initialize
   private :parse_options, :retrieve_plays
+end
+
+# BGG API class that pulls in data and takes a hash as a set of options for the
+# query string
+class BGG_API
+  @@bgg_api_url = "https://boardgamegeek.com/xmlapi2"
+
+  def initialize(type, options)
+    @type = type
+    @options = options
+  end
+
+  def set_options(options)
+    @options = @options.merge(options)
+  end
+
+  def retrieve
+    query = "#{@@bgg_api_url}/#{@type}?"
+
+    @options.each do |name, value|
+      query << "#{name}=#{value}&"
+    end
+
+    # Remove the last ampersand
+    query = query[0..-2]
+
+    # Make sure we're receving a 200 result, otherwise wait and try again
+    request = open(query)
+    while (request.status[0] != "200")
+      sleep 2
+      request = open(query)
+    end
+
+    Nokogiri::XML(request.read)
+  end
 end

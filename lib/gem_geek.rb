@@ -12,7 +12,11 @@ module GemGeek
 	end
 	
 	def self.get_item(id, statistics = false, api = 2, options = {})
-			BGGGetter.get_collection(id, statistics, api, options)
+		BGGGetter.get_collection(id, statistics, api, options)
+	end
+	
+	def self.get_plays(username, options = {})
+		BGGGetter.get_plays(username, options)
 	end
 	
 end

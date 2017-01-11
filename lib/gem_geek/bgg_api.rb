@@ -15,12 +15,12 @@ module BGGAPI
 
   SSL_SETTINGS = OpenSSL::SSL::VERIFY_NONE
 
-  def self.request_xml(method, hash, api = 2)
+  def self.request_xml(type, hash, api = 2)
     params = self.hash_to_uri(hash)
     if api == 2
-      api_path = "#{BGG_API2_URL}/#{method}?#{params}"
+      api_path = "#{BGG_API2_URL}/#{type}?#{params}"
     else
-      api_path = "#{API_1_ROOT}/#{method}/#{hash[:id]}?stats=#{hash[:stats] ? 1 : 0}"
+      api_path = "#{API_1_ROOT}/#{type}/#{hash[:id]}?stats=#{hash[:stats] ? 1 : 0}"
     end
     p api_path
     value = self.retryable(tries: MAX_ATTEMPTS, on: OpenURI::HTTPError) do

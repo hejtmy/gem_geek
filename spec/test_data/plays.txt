@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plays username="Tatsukochi" userid="406390" total="517" page="1" termsofuse="http://boardgamegeek.com/xmlapi/termsofuse">
+<play id="21376325" date="2017-01-01" quantity="4" length="0" incomplete="0" nowinstats="0" location="Nižbor">
+	<item name="One Night Ultimate Werewolf" objecttype="thing" objectid="147949">
+		<subtypes>
+			<subtype value="boardgame"/>
+			<subtype value="boardgameimplementation"/>
+			<subtype value="boardgameintegration"/>
+		</subtypes>
+	</item>
+	<players>
+	<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+	<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+	<player username="" userid="0" name="Echy" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+	<player username="" userid="0" name="Katka" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+	<player username="" userid="0" name="Maťka" startposition="5" color="" score="" new="0" rating="0" win="0"/>
+	<player username="" userid="0" name="Sam" startposition="6" color="" score="" new="0" rating="0" win="0"/>
+	</players>
+</play>
+	<play id="21352956" date="2016-12-31" quantity="1" length="150" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Mansions of Madness: Second Edition" objecttype="thing" objectid="205059">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+						<comments>What lies within scenario. Totally nailed it, mainly because being awesome at mastermind puzzles. Solving all of them below five moves. Solved the scenario, didn't kill almost anybody. Really enjoyed. Amazing.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Echy" startposition="3" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Sam" startposition="4" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Ester" startposition="5" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Katka" startposition="6" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Radek" startposition="7" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Pavla" startposition="8" color="" score="" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="21353192" date="2016-12-31" quantity="1" length="74" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Mechs vs. Minions" objecttype="thing" objectid="209010">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Won easily the first scenario. Bomb delivered. #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Pavla" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Radek" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="21353222" date="2016-12-31" quantity="1" length="90" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Mechs vs. Minions" objecttype="thing" objectid="209010">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Won swift operation. Quite easy.four players are even simpler  #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Radek" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Pavla" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="21462420" date="2016-12-31" quantity="1" length="90" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Mysterium" objecttype="thing" objectid="181304">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Echy ghost, won by a hair. But a long hair, so that's cool</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Katka" startposition="5" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Maťka" startposition="6" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Kája" startposition="7" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="21367387" date="2016-12-31" quantity="1" length="150" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Scythe" objecttype="thing" objectid="169786">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments> #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Echy" startposition="" color="Agriculture Japanese" score="71" new="1" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="Industrial Albion" score="150" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Kája" startposition="" color="Innovative German" score="76" new="1" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="21309136" date="2016-12-28" quantity="1" length="0" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Arkham Horror: The Card Game" objecttype="thing" objectid="205637">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments>It was shit. No interrogated people meant Absolutely worse game we did. Screwed up for good, died, old deity took over Arkham. #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="" color="" score="0" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="" score="0" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="21331068" date="2016-12-28" quantity="1" length="120" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="The Castles of Burgundy" objecttype="thing" objectid="84876">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments> #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="" color="" score="180" new="0" rating="0" win="1"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="" score="180" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="21294074" date="2016-12-28" quantity="1" length="120" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Mechs vs. Minions" objecttype="thing" objectid="209010">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Third scenario. We did so many damage boss ended up with -2 hitpoints. Didn't launch the gg gun. #bgstats</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="" color="" score="0" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="21291934" date="2016-12-28" quantity="1" length="120" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Scythe" objecttype="thing" objectid="169786">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments> #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="" color="Engineering German" score="58" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="Patriotic Japanese" score="90" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="21309305" date="2016-12-28" quantity="1" length="106" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Scythe" objecttype="thing" objectid="169786">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments> #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="" color="Agriculture crimea" score="68" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="Engineering Russia" score="119" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="21331091" date="2016-12-28" quantity="1" length="121" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Scythe" objecttype="thing" objectid="169786">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments> #bgstats</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="Agricultural Polish" score="74" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Martin" startposition="" color="Mechanical Russia" score="71" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="" color="Innovative Japanese" score="28" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="21252082" date="2016-12-26" quantity="1" length="60" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Arkham Horror: The Card Game" objecttype="thing" objectid="205637">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments>Second core set scenario. Didn't die but interrogated only a single person. Could be better. Will see in the future, how it was.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="21252054" date="2016-12-26" quantity="1" length="45" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Mechs vs. Minions" objecttype="thing" objectid="209010">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Tutorial mission. Nothing special about it</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="1" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="21252062" date="2016-12-26" quantity="1" length="80" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Mechs vs. Minions" objecttype="thing" objectid="209010">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Bomb is ticking. Won in first try, although quite a challenge. Not a single damage taken though.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="21269045" date="2016-12-26" quantity="1" length="120" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Mechs vs. Minions" objecttype="thing" objectid="209010">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Second scenario. Looked dim at few times, but we pulled it off in the end. Quite a game! Still yet to lose.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="21269010" date="2016-12-26" quantity="1" length="25" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Odin's Ravens (second edition)" objecttype="thing" objectid="192074">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="21269016" date="2016-12-26" quantity="1" length="25" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Odin's Ravens (second edition)" objecttype="thing" objectid="192074">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="21269065" date="2016-12-26" quantity="1" length="40" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Potion Explosion" objecttype="thing" objectid="180974">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="58" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="57" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Martin" startposition="3" color="" score="43" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="21269087" date="2016-12-26" quantity="1" length="60" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Potion Explosion" objecttype="thing" objectid="180974">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="40" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Martin" startposition="2" color="" score="50" new="1" rating="0" win="0"/>
+						<player username="" userid="0" name="Máma" startposition="3" color="" score="53" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="21196882" date="2016-12-22" quantity="1" length="90" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Arkham Horror: The Card Game" objecttype="thing" objectid="205637">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments>Quite an easy win with skid and Wendy. Standard level difficulty in the first scenario. Didn't take much damage, failed bunch of tests but otherwise didn't suffer as much. I wasn't able to burn the house in the end though. Hope it doesn't bite me in the leg.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="21155538" date="2016-12-19" quantity="1" length="130" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Scythe" objecttype="thing" objectid="169786">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments> #bgstats</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="Agricultural Albion" score="110" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="" color="Innovative Polish" score="62" new="1" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="21111792" date="2016-12-15" quantity="1" length="45" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Legendary Encounters: An Alien Deck Building Game" objecttype="thing" objectid="146652">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+						<comments>Awful and fast death in Aliens scenario. Went through almost entire strike deck #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="2" color="" score="0" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="0" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Ondra Havlíček" startposition="4" color="" score="0" new="1" rating="0" win="0"/>
+						<player username="" userid="0" name="Filip Děchtěrenko" startposition="3" color="" score="0" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="21111798" date="2016-12-15" quantity="1" length="90" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Legendary Encounters: An Alien Deck Building Game" objecttype="thing" objectid="146652">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+						<comments>Slower but sure death. Lost by one damage though :( #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Filip Děchtěrenko" startposition="3" color="" score="0" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="0" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="0" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Ondra Havlíček" startposition="4" color="" score="0" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="21054083" date="2016-12-10" quantity="10" length="110" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="One Night Ultimate Werewolf" objecttype="thing" objectid="147949">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Karolína" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Adéla" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Kuba H." startposition="5" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Mates" startposition="6" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20716276" date="2016-11-13" quantity="1" length="90" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Arkham Horror: The Card Game" objecttype="thing" objectid="205637">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments>First scenario. Took more damage than necessary and lost one round short. #bgstats</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="0" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="0" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20673926" date="2016-11-09" quantity="1" length="0" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="Arboretum" objecttype="thing" objectid="140934">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="16" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="19" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Radek" startposition="3" color="" score="19" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Echy" startposition="4" color="" score="15" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20673873" date="2016-11-09" quantity="1" length="150" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="Blood Rage" objecttype="thing" objectid="170216">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="160" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="110" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Radek" startposition="3" color="" score="170" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Echy" startposition="4" color="" score="25" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Ondra Novák" startposition="5" color="" score="85" new="1" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20548739" date="2016-10-30" quantity="1" length="150" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Alchemists" objecttype="thing" objectid="161970">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Martin Vraný" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Radek" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20541959" date="2016-10-30" quantity="1" length="180" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Mansions of Madness: Second Edition" objecttype="thing" objectid="205059">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+						<comments>Didn't escape from insmouth again. Not even close, but supposedly closer than last time. Boat came, but nothing was solved and Bětka was insane and sacrificed me to the goat of the wild.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Martin Vraný" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Radek" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="5" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20541936" date="2016-10-30" quantity="1" length="120" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Terra Mystica" objecttype="thing" objectid="120677">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="104" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="90" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Martin Vraný" startposition="3" color="" score="110" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Radek" startposition="4" color="" score="85" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="5" color="" score="70" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20526574" date="2016-10-29" quantity="4" length="80" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Codenames" objecttype="thing" objectid="178900">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Radek" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Martin Vraný" startposition="5" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20527309" date="2016-10-29" quantity="1" length="75" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Colt Express" objecttype="thing" objectid="158899">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="1700" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="700" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="3" color="" score="1500" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Radek" startposition="4" color="" score="2100" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Martin Vraný" startposition="5" color="" score="800" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20533173" date="2016-10-29" quantity="1" length="240" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Forbidden Stars" objecttype="thing" objectid="175155">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments>Didn't finish. We ended the game after three turns.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Radek" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Martin Vraný" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20526567" date="2016-10-29" quantity="1" length="150" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Mansions of Madness: Second Edition" objecttype="thing" objectid="205059">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+						<comments>Clean run of the first scenario. Killed everyone, shut down the ritual, easy peasy.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Sam" startposition="3" color="" score="" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Radek" startposition="4" color="" score="" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Martin Vraný" startposition="5" color="" score="" new="1" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="20526558" date="2016-10-29" quantity="1" length="120" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Terra Mystica" objecttype="thing" objectid="120677">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="120" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="90" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20526561" date="2016-10-29" quantity="1" length="60" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Terra Mystica" objecttype="thing" objectid="120677">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="102" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="118" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="20516436" date="2016-10-28" quantity="1" length="90" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Euphoria: Build a Better Dystopia" objecttype="thing" objectid="133848">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="10" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="9" new="1" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20516438" date="2016-10-28" quantity="1" length="60" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Euphoria: Build a Better Dystopia" objecttype="thing" objectid="133848">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="10" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="7" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20411535" date="2016-10-18" quantity="1" length="80" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="Celestia" objecttype="thing" objectid="175117">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="1" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="2" color="" score="" new="1" rating="0" win="0"/>
+						<player username="" userid="0" name="Radek" startposition="3" color="" score="" new="1" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="4" color="" score="" new="1" rating="0" win="0"/>
+						<player username="" userid="0" name="David Greguš" startposition="5" color="" score="" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Magdalena" startposition="6" color="" score="" new="1" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20411549" date="2016-10-18" quantity="1" length="0" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="One Night Ultimate Werewolf" objecttype="thing" objectid="147949">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Radek" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="David Greguš" startposition="5" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Magdalena" startposition="6" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Ester" startposition="7" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="8" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20411554" date="2016-10-18" quantity="6" length="60" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="One Night Ultimate Werewolf" objecttype="thing" objectid="147949">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Radek" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="David Greguš" startposition="5" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Magdalena" startposition="6" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Ester" startposition="7" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="8" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20411581" date="2016-10-18" quantity="1" length="50" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments>First lucky guess of three resistance players got approved and then it was a breeze. Successfuly managed three missions in a row. Quick and swift death for the spies.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="Blue" score="" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Sam" startposition="2" color="Blue" score="" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Radek" startposition="3" color="Blue" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Magdalena" startposition="4" color="Red" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Ester" startposition="5" color="Red" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Echy" startposition="6" color="Red" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="David Greguš" startposition="7" color="Blue" score="" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="8" color="Blue" score="" new="1" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="20262237" date="2016-10-05" quantity="6" length="90" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="One Night Ultimate Werewolf" objecttype="thing" objectid="147949">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+						<comments>How can we play game in which everyone tells truth so long?</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Martin Vraný" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Ester" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="5" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Radek" startposition="6" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="7" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20262195" date="2016-10-04" quantity="1" length="180" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="Fury of Dracula (third edition)" objecttype="thing" objectid="181279">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Dracula, me, lost by stupidly by running into England without any lives left to leave it again. But it was sort of close, scored 10 points as a Dracula. #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Martin Vraný" startposition="5" color="" score="0" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Echy" startposition="4" color="" score="0" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Radek" startposition="3" color="" score="0" new="0" rating="0" win="1"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="0" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="0" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="20134677" date="2016-09-24" quantity="1" length="30" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="Android: Netrunner" objecttype="thing" objectid="124742">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Gabriel versus Jinteki. Win in psy games</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="" score="7" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Sam" startposition="" color="" score="1" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20134682" date="2016-09-24" quantity="1" length="20" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="Android: Netrunner" objecttype="thing" objectid="124742">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Short game. Lost as a Corp with research and development runs.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="0" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="2" color="" score="7" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="20134710" date="2016-09-24" quantity="1" length="30" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="Oh My Goods!" objecttype="thing" objectid="183840">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments>First game</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="20134704" date="2016-09-24" quantity="1" length="0" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="Specter Ops" objecttype="thing" objectid="155624">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments>Epic finále. Sam escaped with ingenious tricks and all. Two life left. Good game</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="Hunter" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="2" color="Agent" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="3" color="Hunter" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Radek" startposition="4" color="Hunter" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="19957475" date="2016-09-07" quantity="1" length="90" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="Specter Ops" objecttype="thing" objectid="155624">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments>Hunters won. I didn't play much but the more hunters win was nice. Explained other games yo people around</comments>
+									<players>
+									<player username="" userid="0" name="Radek" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="19957460" date="2016-09-06" quantity="1" length="90" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="Mysterium" objecttype="thing" objectid="181304">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Radek as a he ghost. We didn't win in the final round but whatever....</comments>
+									<players>
+									<player username="" userid="0" name="Sam" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Radek" startposition="5" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Filip Děchtěrenko" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="19915085" date="2016-09-03" quantity="1" length="40" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Potion Explosion" objecttype="thing" objectid="180974">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="56" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="65" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="19877023" date="2016-08-31" quantity="1" length="80" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Specter Ops" objecttype="thing" objectid="155624">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments>Second game. Bětka orangutan won with one life. Couldn't stop her. I did 4 damage over six turns but it wasn't enough. Next time!</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="19875204" date="2016-08-30" quantity="1" length="60" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Potion Explosion" objecttype="thing" objectid="180974">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="68" new="1" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="89" new="1" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="19876194" date="2016-08-30" quantity="1" length="60" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Specter Ops" objecttype="thing" objectid="155624">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments>First game. Won in 19 turns in epic holo decoy run.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="Agent" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="19860445" date="2016-08-29" quantity="1" length="45" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="The Lord of the Rings: The Card Game" objecttype="thing" objectid="77423">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments>First scenario easy peasy. Took tactics and spirit</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="19841399" date="2016-08-28" quantity="1" length="120" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Mansions of Madness: Second Edition" objecttype="thing" objectid="205059">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+						<comments>Insmouth scenario. Lost on the grounds of being punched and wire strangled to death.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="19841379" date="2016-08-28" quantity="1" length="60" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Ticket to Ride Map Collection: Volume 5 – United Kingdom &amp; Pennsylvania" objecttype="thing" objectid="182078">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameexpansion"/>
+									</subtypes>
+			</item>
+						<comments>Won despite the fact I drew like four locomotives. Weird</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="119" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="69" new="1" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="19838374" date="2016-08-27" quantity="1" length="15" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Tides of Madness" objecttype="thing" objectid="195544">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="53" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="38" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="19838386" date="2016-08-27" quantity="1" length="15" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Tides of Madness" objecttype="thing" objectid="195544">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="52" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="75" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="19809852" date="2016-08-25" quantity="1" length="240" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="T.I.M.E Stories: The Marcy Case" objecttype="thing" objectid="180585">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameexpansion"/>
+									</subtypes>
+			</item>
+						<comments>Third run the charm. Scored 46 points, not the best but I am quite satisfied with the result. Sacrificed the doc to the zombies, returned correct girl and all. Great play.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Jana" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="19772200" date="2016-08-21" quantity="1" length="240" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Mansions of Madness: Second Edition" objecttype="thing" objectid="205059">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+						<comments>App crashed, so we needed to restart. Nevertheless we won, closed the portal and all. Breeze</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="1" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="19774234" date="2016-08-21" quantity="1" length="90" incomplete="0" nowinstats="0" location="U Jany">
+			<item name="Pandemic Legacy: Season 1" objecttype="thing" objectid="161936">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Extremely hard game. Won after two consecutive sacrifices, but managed to vaccinate most of Europe.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="3" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Jana" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="19777937" date="2016-08-21" quantity="1" length="60" incomplete="0" nowinstats="0" location="U Jany">
+			<item name="Pandemic Legacy: Season 1" objecttype="thing" objectid="161936">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Won the last game I December. Final score is 743 but I call bullshit because nobody told is we need to destroy all stations. Nevertheless, we decided we are awesome and game cas suck it.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="3" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Jana" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="19777948" date="2016-08-21" quantity="1" length="80" incomplete="0" nowinstats="0" location="U Jany">
+			<item name="Pandemic Legacy: Season 1" objecttype="thing" objectid="161936">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Complicated game in November bud we pulled through. Vaccinated almost everything.</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="3" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Jana" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="19772218" date="2016-08-18" quantity="1" length="80" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Pandemic Legacy: Season 1" objecttype="thing" objectid="161936">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Won the second September mission with ease. October, bring it on</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Jana" startposition="3" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="19772229" date="2016-08-18" quantity="1" length="40" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Pandemic Legacy: Season 1" objecttype="thing" objectid="161936">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Well. Another turn of events got us killed. Almost. Toby flew into Moscow and got bumped by so many fallen that he will never visit those parts again. We lost on the insufficient number of fallen guys. But we discovered the vaccine, so let's try that again. #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="2" color="" score="0" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="0" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Jana" startposition="3" color="" score="0" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="19335727" date="2016-07-08" quantity="1" length="15" incomplete="0" nowinstats="0" location="London Draughts">
+			<item name="Forbidden Island" objecttype="thing" objectid="65244">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments>Easy? sooo easy on normal its unfair.</comments>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="" color="" score="" new="1" rating="0" win="1"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="" score="" new="1" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="19335741" date="2016-07-08" quantity="1" length="30" incomplete="0" nowinstats="0" location="London Draughts">
+			<item name="Forbidden Island" objecttype="thing" objectid="65244">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments>Won again on Nightmare difficulty? by a hair. Lost by one turn but that odesn't count because cards sucked.</comments>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="" color="" score="" new="0" rating="0" win="1"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="" score="" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="19335688" date="2016-07-08" quantity="3" length="70" incomplete="0" nowinstats="0" location="London Draughts">
+			<item name="Loony Quest" objecttype="thing" objectid="136991">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments>Lost to Bětka in three worlds. Shes good!</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="" score="" new="1" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="" color="" score="" new="1" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="19335709" date="2016-07-08" quantity="1" length="40" incomplete="0" nowinstats="0" location="London Draughts">
+			<item name="Odin's Ravens" objecttype="thing" objectid="4396">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+						<comments>I lost! We might have overlooked something, but it seems that first player always wins</comments>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="" score="" new="1" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="" color="" score="" new="1" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="19335665" date="2016-07-08" quantity="1" length="60" incomplete="0" nowinstats="0" location="London Draughts">
+			<item name="Roll for the Galaxy" objecttype="thing" objectid="132531">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="" score="" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="" color="" score="" new="1" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18812376" date="2016-05-26" quantity="1" length="180" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="Blood Rage" objecttype="thing" objectid="170216">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Radek" startposition="4" color="" score="131" new="0" rating="0" win="1"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="113" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="3" color="" score="78" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="114" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18761114" date="2016-05-22" quantity="1" length="45" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Bohnanza" objecttype="thing" objectid="11">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="1" color="" score="21" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Martin" startposition="3" color="" score="20" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="2" color="" score="23" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="18734479" date="2016-05-20" quantity="1" length="0" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="Bohnanza" objecttype="thing" objectid="11">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="21" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="3" color="" score="22" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="19" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18734480" date="2016-05-19" quantity="1" length="120" incomplete="0" nowinstats="0" location="Hospoda">
+			<item name="Blood Rage" objecttype="thing" objectid="170216">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Sam" startposition="4" color="" score="154" new="0" rating="0" win="1"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="96" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="3" color="" score="119" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="93" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18694115" date="2016-05-15" quantity="1" length="120" incomplete="0" nowinstats="0" location="Dobrá Trafika">
+			<item name="Blood Rage" objecttype="thing" objectid="170216">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="49" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="3" color="" score="128" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="78" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18694109" date="2016-05-15" quantity="1" length="0" incomplete="0" nowinstats="0" location="Dobrá Trafika">
+			<item name="Bohnanza" objecttype="thing" objectid="11">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="24" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Sam" startposition="3" color="" score="22" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="20" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18695197" date="2016-05-15" quantity="1" length="0" incomplete="0" nowinstats="0" location="Dobrá Trafika">
+			<item name="Bohnanza" objecttype="thing" objectid="11">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="24" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Sam" startposition="3" color="" score="22" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="20" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18659867" date="2016-05-14" quantity="1" length="180" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Blood Rage" objecttype="thing" objectid="170216">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Radek" startposition="4" color="" score="153" new="1" rating="0" win="1"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="93" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Sam" startposition="3" color="" score="105" new="1" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="145" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18660025" date="2016-05-14" quantity="1" length="40" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Smash Up" objecttype="thing" objectid="122522">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="18" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Radek" startposition="3" color="" score="11" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="10" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18590317" date="2016-05-07" quantity="1" length="30" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="7 Wonders Duel" objecttype="thing" objectid="173346">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="78" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="50" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18590319" date="2016-05-07" quantity="1" length="0" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="7 Wonders Duel" objecttype="thing" objectid="173346">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="61" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="24" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18552361" date="2016-05-03" quantity="1" length="30" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="7 Wonders Duel" objecttype="thing" objectid="173346">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="63" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="43" new="1" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18552479" date="2016-05-03" quantity="1" length="50" incomplete="0" nowinstats="1" location="Petřiny">
+			<item name="Blood Rage" objecttype="thing" objectid="170216">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+						<comments> #bgstats</comments>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="2" color="" score="0" new="1" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="0" new="1" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18425213" date="2016-04-23" quantity="1" length="40" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Deception: Murder in Hong Kong" objecttype="thing" objectid="156129">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Ester" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18423946" date="2016-04-22" quantity="1" length="120" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Concordia" objecttype="thing" objectid="124361">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Ester" startposition="4" color="" score="105" new="1" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="85" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="3" color="" score="104" new="1" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="108" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="18423951" date="2016-04-21" quantity="1" length="0" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Concordia" objecttype="thing" objectid="124361">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="185" new="1" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="143" new="1" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18399670" date="2016-04-19" quantity="1" length="0" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Power Grid deluxe: Europe/North America" objecttype="thing" objectid="155873">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="" color="" score="" new="1" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="" color="" score="" new="1" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="18357514" date="2016-04-16" quantity="1" length="180" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="T.I.M.E Stories" objecttype="thing" objectid="146508">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Ester" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Ondra Novák" startposition="5" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="3" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18357517" date="2016-04-16" quantity="1" length="0" incomplete="0" nowinstats="0" location="Petřiny">
+			<item name="Welcome to the Dungeon" objecttype="thing" objectid="150312">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Ester" startposition="4" color="" score="" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="3" color="" score="" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Bětka" startposition="2" color="" score="" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="18319526" date="2016-04-10" quantity="1" length="60" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Colt Express" objecttype="thing" objectid="158899">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="2" color="" score="1700" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="2000" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Echy" startposition="3" color="" score="700" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18287210" date="2016-04-10" quantity="1" length="240" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Eldritch Horror" objecttype="thing" objectid="146021">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="0" color="" score="0.0" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="2" color="" score="0.0" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="0.0" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18288076" date="2016-04-10" quantity="1" length="70" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Small World" objecttype="thing" objectid="40692">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="0" color="" score="88.0" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="2" color="" score="80.0" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="100.0" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="18297252" date="2016-04-10" quantity="1" length="60" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Small World" objecttype="thing" objectid="40692">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="0" color="" score="68.0" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="2" color="" score="95.0" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="101.0" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="18278210" date="2016-04-09" quantity="1" length="130" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Cyclades" objecttype="thing" objectid="54998">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="0" color="" score="0.0" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="2" color="" score="2.0" new="0" rating="0" win="1"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="1.0" new="0" rating="0" win="0"/>
+						</players>
+					</play>
+	<play id="18278223" date="2016-04-09" quantity="1" length="70" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Legendary Encounters: A Predator Deck Building Game" objecttype="thing" objectid="174570">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="0" color="" score="0.0" new="0" rating="0" win="1"/>
+						<player username="" userid="0" name="Echy" startposition="2" color="" score="0.0" new="0" rating="0" win="1"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="0.0" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="18273407" date="2016-04-09" quantity="1" length="69" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Takenoko" objecttype="thing" objectid="70919">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="0" color="" score="34.0" new="0" rating="0" win="0"/>
+						<player username="" userid="0" name="Echy" startposition="2" color="" score="36.0" new="0" rating="0" win="0"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="43.0" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="18211953" date="2016-04-03" quantity="1" length="65" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Cyclades" objecttype="thing" objectid="54998">
+				<subtypes>
+										<subtype value="boardgame"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="0" color="" score="1.0" new="0" rating="0" win="1"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="1.0" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	<play id="18211992" date="2016-04-03" quantity="1" length="60" incomplete="0" nowinstats="0" location="Nižbor">
+			<item name="Legendary Encounters: A Predator Deck Building Game" objecttype="thing" objectid="174570">
+				<subtypes>
+										<subtype value="boardgame"/>
+										<subtype value="boardgameimplementation"/>
+										<subtype value="boardgameintegration"/>
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Bětka" startposition="0" color="" score="0.0" new="0" rating="0" win="1"/>
+						<player username="Tatsukochi" userid="406390" name="hejtmy" startposition="1" color="" score="0.0" new="0" rating="0" win="1"/>
+						</players>
+					</play>
+	</plays>

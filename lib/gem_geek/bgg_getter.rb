@@ -69,18 +69,17 @@ module GemGeek
 			options[:page] = 0 
 			# this gets a bit more complicated 
 			# BGG allows only downloading games in bunch of 201, so we need to loop until we get all of it
+			plays = BGGPlays.new()
 			while true do
 				options[:page] += 1
 				plays_xml = BGGAPI.request_xml("plays", options)
 				num_results = plays_xml.root.children.count
 				puts num_results
-				plays_xml.css('play').each do |play| #select all play elements under plays
-					
-				end
+				plays.add_plays(plays_xml)
 				break
-				break if num_results < 201
+				#break if num_results < 201
 			end
-			plays_xml
+			plays
 		end
 		
 		
@@ -98,3 +97,5 @@ require 'gem_geek/data_types/bgg_collection'
 require 'gem_geek/data_types/bgg_collection_item'
 require 'gem_geek/data_types/bgg_search_result'
 require 'gem_geek/data_types/bgg_play'
+require 'gem_geek/data_types/bgg_plays'
+require 'gem_geek/data_types/bgg_player'

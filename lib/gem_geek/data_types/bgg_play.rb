@@ -28,10 +28,15 @@ module GemGeek
 			end
 		end
 		
-		def add_players(xml)
-			@players = []
-		    players_xml = xml.css('players > player')
-		    players_xml.each {|player_xml| @players.push(BGGPlayer.new(player_xml))}
+		def add_players(play_xml)
+			players = []
+		    players_xml = play_xml.css('players > player')
+		    players_xml.each do |player_xml| 
+		    	player = BGGPlayer.new(player_xml)
+		    	players.push(player)
+		    end
+		    @players = players
+	    end
 	    end
 
 	    private

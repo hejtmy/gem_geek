@@ -13,7 +13,8 @@ module GemGeek
 		        @location = play_xml['location']
 		        @bg_name = get_string(play_xml, 'item', 'name')
 		        @bg_id = get_integer(play_xml, 'item', 'objectid')
-		        @players = add_players(play_xml)
+		        @players = []
+		        add_players(play_xml)
 			else
 		        @id = -1
 		        @data = "-----"
@@ -29,13 +30,10 @@ module GemGeek
 		end
 		
 		def add_players(play_xml)
-			players = []
-		    players_xml = play_xml.css('players > player')
-		    players_xml.each do |player_xml| 
+		    play_xml.css('players > player').each do |player_xml| 
 		    	player = BGGPlayer.new(player_xml)
-		    	players.push(player)
+		    	@players.push(player)
 		    end
-		    @players = players
 	    end
 
 	    def has_players(names)

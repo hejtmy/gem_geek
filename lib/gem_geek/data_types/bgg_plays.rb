@@ -76,8 +76,8 @@ module GemGeek
 			select_param(:location, name)
 		end
 
-		def first()
-			@plays.any? ? @plays[0] : nil
+		def first
+			empty? ? @plays[0] : nil
 		end
 
 		def empty?

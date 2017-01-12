@@ -4,14 +4,12 @@
 # query string
 
 require 'nokogiri'
-require 'open-uri'
-require 'openssl'
 
 module BGGAPI
   BGG_API2_URL = "https://boardgamegeek.com/xmlapi2"
   MAX_ATTEMPTS = 10
-  
-  RETRIES = 3
+  SLEEP = 0.5
+  RETRIES = 5
   
   WAITING_PERIOD = 1 #in s
 
@@ -28,8 +26,8 @@ module BGGAPI
     value = self.retryable(tries: MAX_ATTEMPTS, on: OpenURI::HTTPError) do
       open(api_path, ssl_verify_mode: SSL_SETTINGS) do |file|
         if file.status[0] != "200"
-          sleep 0.05
-          throw OpenURI::HTTPError
+          sleep SLEEP
+          raise OpenURI::HTTPError.new('BGG didnt reply', 'io')
         else
           value = Nokogiri::XML(file.read)
         end
@@ -39,16 +37,16 @@ module BGGAPI
   end
 
   def self.retryable(options = {}, &block)
-    opts = { :tries => RETRIES, :on => Exception }.merge(options)
+    opts = { :tries => RETRIES, :on => Exception}.merge(options)
 
     retry_exception, retries = opts[:on], opts[:tries]
 
     begin
       return yield
-    rescue retry_exception
+    rescue retry_exception => e
+      puts e
       retry if (retries -= 1) > 0
     end
-
     yield
   end
 

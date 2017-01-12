@@ -42,7 +42,7 @@ module GemGeek
 
 			#validates string
 			name.to_s
-			select(:bg_name, name)
+			select_param(:bg_name, name)
 		end
 
 		def game_id(id)
@@ -63,17 +63,17 @@ module GemGeek
 
 		def after_date(date)
 			raise ArgumentError, 'BGGPlays::with_user Argument is not date' unless date.is_a? Date
-			select(:date, date, :>)
+			select_param(:date, date, :>)
 		end
 
 		def before_date(date)
 			raise ArgumentError, 'BGGPlays::with_user Argument is not date' unless date.is_a? Date 
-			select(:date, date, :<)
+			select_param(:date, date, :<)
 		end
 
 		def at_location(name)
 			raise ArgumentError, 'Argument is not string' unless name.is_a? String 
-			select(:location, name)
+			select_param(:location, name)
 		end
 
 		def first()
@@ -86,7 +86,7 @@ module GemGeek
 
 		private 
 
-		def select(key, value, operator = :==)
+		def select_param(key, value, operator = :==)
 			#converts key string to parameter
 			# selects if
 			plays_r = BGGPlays.new()

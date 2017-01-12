@@ -31,7 +31,14 @@ describe GemGeek do
     expect(plays.before_date(Date.today).empty?).to be false
   end
 
+  it "appropriately selects based on players" do
+  end
+
   it "allows chaining of commands" do
     expect(plays.before_date(Date.today).game('Takenoko').empty?).to be false
+  end
+
+  it "doesn't fail when wrong parameters are passed to bgg_plays" do
+
   end
 end

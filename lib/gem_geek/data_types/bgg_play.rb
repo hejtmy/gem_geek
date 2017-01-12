@@ -1,11 +1,11 @@
 module GemGeek
     class BGGPlay < BGGBase
-    	attr_reader :id, :data, :quantity, :length, :incomplete, :nowinstats, :location, :bg_name, :bg_id, :players
+    	attr_reader :id, :date, :quantity, :length, :incomplete, :nowinstats, :location, :bg_name, :bg_id, :players
     	
 		def initialize(play_xml = nil)
 			if !play_xml.nil?
 		        @id = play_xml['id'].to_i
-		        @data = play_xml['date']
+		        @date = parse_date(play_xml['date'])
 		        @quantity = play_xml['quantity'].to_i
 		        @length = play_xml['length'].to_i
 		        @incomplete = play_xml['incomplete'] == '1'
@@ -32,6 +32,11 @@ module GemGeek
 			@players = []
 		    players_xml = xml.css('players > player')
 		    players_xml.each {|player_xml| @players.push(BGGPlayer.new(player_xml))}
+	    end
+
+	    private
+	    def parse_date(date_string)
+	    	date_string.empty? ? nil : Date.strptime(date_string, "%Y-%m-%d")
 	    end
     end
 end

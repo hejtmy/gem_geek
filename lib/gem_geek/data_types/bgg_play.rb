@@ -37,6 +37,11 @@ module GemGeek
 		    end
 		    @players = players
 	    end
+
+	    def has_players(names)
+	    	players = @players.map {|p| p.name}
+	    	# asserts non nil array
+	    	(names - players).empty?
 	    end
 
 	    private

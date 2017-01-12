@@ -3,6 +3,9 @@ require 'spec_helper'
 USERNAME = 'Tatsukochi'
 
 describe GemGeek do
+
+  let(:plays){GemGeek.get_plays(USERNAME)}
+
   it 'has a version number' do
     expect(GemGeek::VERSION).not_to be nil
   end
@@ -16,12 +19,10 @@ describe GemGeek do
   end
   
   it "download games without issues" do
-    plays = GemGeek.get_plays(USERNAME)
-    plays.plays.count >= 200
+    expect(plays.first).not_to be nil
   end
   
   it "doesn't input game if it already exists" do
-    plays = GemGeek.get_plays(USERNAME)
     expect(plays.add(plays.plays[1])).to be false
   end
 end

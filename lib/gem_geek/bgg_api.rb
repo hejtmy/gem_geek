@@ -5,7 +5,7 @@
 
 require 'nokogiri'
 require 'open-uri'
-require 'OpenSSL'
+require 'openssl'
 
 module BGGAPI
   BGG_API2_URL = "https://boardgamegeek.com/xmlapi2"

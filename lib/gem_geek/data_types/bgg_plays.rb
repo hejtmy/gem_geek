@@ -34,51 +34,77 @@ module GemGeek
 		end
 		
 		def remove(id)
-			if id < 1
-				puts 'selected play not in the array'
-			end
-			# gets the index
 
-			#removes the index and the play
 		end
+		#selects games based on string of the name
+		def game(name)
+			raise ArgumentError, 'BGGPlays::game Argument is not string' unless name.is_a? String 
 
-		def game_name(name)
+			#validates string
+			name.to_s
 			select(:bg_name, name)
 		end
 
 		def game_id(id)
+			 raise ArgumentError, 'BGGPlays::game_id Argument is not integer' unless id.is_a? Integer 
 		end
 
-		def with_player(name)
+		def with_players(names)
+			names = [names] if names.is_a? String
+			raise ArgumentError, 'BGGPlays::with_player Argument is not string' unless names.is_a? Array
+			select_fun(:has_players, names)
 		end
 
-		def between_dates
+		def with_users(usernames)
+			usernames = [usernames] if usernames.is_a? String
+			raise ArgumentError, 'BGGPlays::with_user Argument is not string' unless usernames.is_a? String
+			select_fun(:has_players, usernames)
 		end
 
-		def after_date
+		def after_date(date)
+			raise ArgumentError, 'BGGPlays::with_user Argument is not date' unless date.is_a? Date
+			select(:date, date, :>)
 		end
 
-		def before_date
+		def before_date(date)
+			raise ArgumentError, 'BGGPlays::with_user Argument is not date' unless date.is_a? Date 
+			select(:date, date, :<)
 		end
 
 		def at_location(name)
+			raise ArgumentError, 'Argument is not string' unless name.is_a? String 
 			select(:location, name)
 		end
 
 		def first()
-
+			@plays.any? ? @plays[0] : nil
 		end
 
-		def select(key, value)
+		def empty?
+			!@plays.any?
+		end
+
+		private 
+
+		def select(key, value, operator = :==)
 			#converts key string to parameter
 			# selects if
-			selected = []
 			plays_r = BGGPlays.new()
 			@plays.each do |play|
-				plays_r.add(play) if play.send(key) == value 
+				param = play.send(key)
+				if not param.nil? 
+					plays_r.add(play) if param.send(operator, value) #weird syntax
+				end
 			end
 			return plays_r
 		end
 
+		def select_fun(func, value)
+			plays_r = BGGPlays.new()
+			@plays.each do |play|
+				plays_r.add(play) if play.send(func, value)
+			end
+			return plays_r
+		end
     end
 end

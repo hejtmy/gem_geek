@@ -21,4 +21,5 @@ module GemGeek
 	
 end
 
+require 'gem_geek/version'
 require 'gem_geek/bgg_getter'

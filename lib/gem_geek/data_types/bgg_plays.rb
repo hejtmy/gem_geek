@@ -34,12 +34,7 @@ module GemGeek
 		end
 		
 		def remove(id)
-			if id < 1
-				puts 'selected play not in the array'
-			end
-			# gets the index
 
-			#removes the index and the play
 		end
 		#selects games based on string of the name
 		def game(name)
@@ -54,14 +49,16 @@ module GemGeek
 			 raise ArgumentError, 'BGGPlays::game_id Argument is not integer' unless id.is_a? Integer 
 		end
 
-		def with_player(name)
-			raise ArgumentError, 'BGGPlays::with_player Argument is not string' unless name.is_a? String
-
+		def with_players(names)
+			names = [names] if names.is_a? String
+			raise ArgumentError, 'BGGPlays::with_player Argument is not string' unless names.is_a? Array
+			select_fun(:has_players, names)
 		end
 
-		def with_user(username)
-			raise ArgumentError, 'BGGPlays::with_user Argument is not string' unless username.is_a? String
-
+		def with_users(usernames)
+			usernames = [usernames] if usernames.is_a? String
+			raise ArgumentError, 'BGGPlays::with_user Argument is not string' unless usernames.is_a? String
+			select_fun(:has_players, usernames)
 		end
 
 		def after_date(date)
@@ -88,10 +85,10 @@ module GemGeek
 		end
 
 		private 
+
 		def select(key, value, operator = :==)
 			#converts key string to parameter
 			# selects if
-			selected = []
 			plays_r = BGGPlays.new()
 			@plays.each do |play|
 				param = play.send(key)
@@ -102,5 +99,12 @@ module GemGeek
 			return plays_r
 		end
 
+		def select_fun(func, value)
+			plays_r = BGGPlays.new()
+			@plays.each do |play|
+				plays_r.add(play) if play.send(func, value)
+			end
+			return plays_r
+		end
     end
 end

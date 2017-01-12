@@ -83,6 +83,10 @@ module GemGeek
 			@plays.any? ? @plays[0] : nil
 		end
 
+		def empty?
+			!@plays.any?
+		end
+
 		private 
 		def select(key, value, operator = :==)
 			#converts key string to parameter

@@ -76,8 +76,7 @@ module GemGeek
 				num_results = plays_xml.root.children.count
 				puts num_results
 				plays.add_plays(plays_xml)
-				break
-				#break if num_results < 201
+				break if num_results < 201
 			end
 			plays
 		end

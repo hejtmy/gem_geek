@@ -79,9 +79,5 @@ module GemGeek
 				@statistics = nil
 			end
 		end
-
-		def get_user_collection_data(username)
-			return BoardGameGem.get_collection(username, id: @id)
-		end
 	end
 end

@@ -43,6 +43,10 @@ module GemGeek
 	    	# asserts non nil array
 	    	(names - players).empty?
 	    end
+	    
+	    def group_size()
+	    	@players.length 
+	    end
 
 	    private
 	    def parse_date(date_string)

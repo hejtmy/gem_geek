@@ -19,6 +19,8 @@ module GemGeek
 		BGGGetter.get_plays(username, options)
 	end
 	
+	
+	
 end
 
 require 'gem_geek/version'

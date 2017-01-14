@@ -48,7 +48,12 @@ module GemGeek
 		def game_id(id)
 			 raise ArgumentError, 'BGGPlays::game_id Argument is not integer' unless id.is_a? Integer 
 		end
-
+		
+		def group_size(number)
+			raise ArgumentError, 'BGGPlays::group_size Argument is not integer' unless number.is_a? Integer
+			select(:group_size, number)
+		end
+		
 		def with_players(names)
 			names = [names] if names.is_a? String
 			raise ArgumentError, 'BGGPlays::with_player Argument is not string' unless names.is_a? Array

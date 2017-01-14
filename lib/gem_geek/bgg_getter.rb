@@ -8,7 +8,8 @@ module GemGeek
 		def self.get_item(id, statistics = false, api = 2, options = {})
 			options[:id] = id
 			options[:stats] = statistics ? 1 : 0
-			item = BGGItem.new(self.request_xml(api == 2 ? "thing" : "boardgame", options, api), api)
+			item_xml = self.request_xml(api == 2 ? "thing" : "boardgame", options, api)
+			item = BGGItem.new(item_xml, api)
 			item.id == 0 ? nil : item
 		end
 
@@ -80,8 +81,6 @@ module GemGeek
 			end
 			plays
 		end
-		
-		
 	end
 end
 

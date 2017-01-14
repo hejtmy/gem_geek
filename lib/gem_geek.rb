@@ -11,14 +11,13 @@ module GemGeek
 		BGGGetter.get_collection(username, options)
 	end
 	
-	def self.get_item(id, statistics = false, api = 2, options = {})
-		BGGGetter.get_collection(id, statistics, api, options)
+	def self.get_item(id, options = {}, statistics = true, api = 2)
+		BGGGetter.get_item(id, options, statistics, api)
 	end
 	
 	def self.get_plays(username, options = {})
 		BGGGetter.get_plays(username, options)
 	end
-
 end
 
 require 'gem_geek/version'

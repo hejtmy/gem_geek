@@ -5,10 +5,10 @@
 require 'json'
 module GemGeek
 	module BGGGetter
-		def self.get_item(id, statistics = false, api = 2, options = {})
+		def self.get_item(id, options = {}, statistics = false, api = 2)
 			options[:id] = id
 			options[:stats] = statistics ? 1 : 0
-			item_xml = self.request_xml(api == 2 ? "thing" : "boardgame", options, api)
+			item_xml = BGGAPI.request_xml(api == 2 ? "thing" : "boardgame", options, api)
 			item = BGGItem.new(item_xml, api)
 			item.id == 0 ? nil : item
 		end

@@ -18,9 +18,7 @@ module GemGeek
 	def self.get_plays(username, options = {})
 		BGGGetter.get_plays(username, options)
 	end
-	
-	
-	
+
 end
 
 require 'gem_geek/version'

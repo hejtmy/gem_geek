@@ -9,6 +9,8 @@ module GemGeek
 			if !xml.nil?
 				@id = get_integer(xml, "user", "id")
 				@name = get_string(xml, "user", "name")
+				@first_name = get_string(xml, "firstname", "value")
+				@last_name = get_string(xml, "lastname", "lastname")
 				@avatar = get_string(xml, "avatarlink", "value")
 				@year_registered = get_integer(xml, "yearregistered", "value")
 				@last_login = get_string(xml, "lastlogin", "value")

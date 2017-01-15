@@ -26,6 +26,10 @@ describe GemGeek do
         expect(plays.before_date(Date.today).game('Takenoko').empty?).to be false
     end
     
+    it "selects a single game by play id" do
+        expect(plays.play_id(21309136).plays.length).to be 1
+    end
+    
     it "doesn't fail when wrong parameters are passed to bgg_plays" do
     
     end

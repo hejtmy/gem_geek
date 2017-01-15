@@ -36,17 +36,23 @@ module GemGeek
 		def remove(id)
 
 		end
+		
+		def play_id(id)
+			raise ArgumentError, 'BGGPlays::play_id Argument is not integer' unless id.is_a? Integer
+			select(:id, id)
+		end
+		
 		#selects games based on string of the name
 		def game(name)
 			raise ArgumentError, 'BGGPlays::game Argument is not string' unless name.is_a? String 
-
 			#validates string
 			name.to_s
 			select(:bg_name, name)
 		end
 
 		def game_id(id)
-			 raise ArgumentError, 'BGGPlays::game_id Argument is not integer' unless id.is_a? Integer 
+			 raise ArgumentError, 'BGGPlays::game_id Argument is not integer' unless id.is_a? Integer
+			 select(:bg_id, id)
 		end
 		
 		def group_size(number)

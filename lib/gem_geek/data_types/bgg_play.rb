@@ -37,7 +37,15 @@ module GemGeek
 		    end
 		    @players = players
 	    end
-
+		
+		def winners
+			winners = []
+			@players.each do |player|
+				winners.push(player) if player.win
+			end
+			winners
+		end
+		
 	    def has_players(names)
 	    	players = @players.map {|p| p.name}
 	    	# asserts non nil array

@@ -4,9 +4,14 @@ module GemGeek
 	class BGGItem < BGGBase
 
 		attr_reader :id, :type, :thumbnail, :image, :name, :description, :year_published, :min_players, :max_players,
-			:playing_time, :min_playing_time, :max_playing_time, :statistics
+			:playing_time, :min_playing_time, :max_playing_time, :statistics, :families
 
 		def initialize(xml, api = 2)
+			fill_data(xml, api)
+		end
+		
+		private
+		def fill_data(xml, api)
 			@api = api
 			if !xml.nil?
 				@id = get_integer(xml, key_for_api("boardgame", "item"), key_for_api("objectid", "id"))
@@ -62,6 +67,7 @@ module GemGeek
 					@statistics[:num_weights] = get_integer(xml, "numweights", api_key_value)
 					@statistics[:average_weight] = get_integer(xml, "averageweight", api_key_value)
 				end
+				@families, @designers, @publishers, @mechanics, @categories = unwrap_links(xml)
 			else
 				@id = 0
 				@type = ""
@@ -77,7 +83,34 @@ module GemGeek
 				@min_playing_time = -1
 				@max_playing_time = -1
 				@statistics = nil
+				@families, @designers, @publishers, @mechanics, @categories = [], [], [], [], []
 			end
+		end
+		
+		def unwrap_links(xml)
+			link_xml = xml.css('link')
+			hashes = link_xml.map {|a| {a["type"] => {id: a["id"], value: a["value"]}}}
+			#maps the hashes into arrays under each category
+			arr = hashes.group_by{|h| h.keys.first}.each_value{|a| a.map!{|h| h.values.first}}
+			families = BGGLink.generate_categories(arr["boardgamefamily"])
+			designers = BGGLink.generate_categories(arr["boardgamedesigner"])
+			publishers = BGGLink.generate_categories(arr["boardgamepublisher"])
+			mechanics = BGGLink.generate_categories(arr["boardgamemechanic"])
+			categories = BGGLink.generate_categories(arr["boardgamecategory"])
+			return families, designers, publishers, mechanics, categories
+		end
+	end
+	
+	class BGGLink 
+		attr_reader :id, :name
+		def initialize(id, name)
+			@id = id
+			@name = name
+		end
+		def self.generate_categories(hash)
+			categories = []
+			hash.each{|h| categories.push(self.new(h[:id], h[:value])) }
+			return categories
 		end
 	end
 end

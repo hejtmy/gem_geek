@@ -1,6 +1,6 @@
 module GemGeek
     class BGGPlay < BGGBase
-    	attr_reader :id, :date, :quantity, :length, :incomplete, :nowinstats, :location, :bg_name, :bg_id, :players
+    	attr_reader :id, :date, :quantity, :length, :incomplete, :nowinstats, :location, :bg_name, :bg_id, :players, :comment
     	
 		def initialize(play_xml = nil)
 			if !play_xml.nil?
@@ -14,6 +14,7 @@ module GemGeek
 		        @bg_name = get_string(play_xml, 'item', 'name')
 		        @bg_id = get_integer(play_xml, 'item', 'objectid')
 		        @players = add_players(play_xml)
+		        @comment = get_comment(play_xml)
 			else
 		        @id = -1
 		        @data = "-----"
@@ -25,6 +26,7 @@ module GemGeek
 		        @bg_name = ""
 		        @bg_id = 0
 		        @players = []
+		        @comment = ""
 			end
 		end
 		
@@ -37,6 +39,11 @@ module GemGeek
 		    end
 		    @players = players
 	    end
+		
+		def get_comment(play_xml)
+			comment_xml = play_xml.css('comments')
+			comment_xml.empty? ? nil : comment_xml.text
+		end
 		
 		def winners
 			winners = []

@@ -59,9 +59,31 @@ module GemGeek
 		private
 
 		def filter_by(key)
-			collection = BGGCollection.new()
-			collection.items = @items.select { |x| x.status[key] }
-			return collection
+			collection_r = BGGCollection.new()
+			collection_r.items = @items.select { |x| x.status[key] }
+			return collection_r
 		end
+		
+		def select(key, value, operator = :==)
+			#converts key string to parameter
+			# selects if
+			collection_r = BGGCollection.new()
+			@items.each do |item|
+				param = item.send(key)
+				if not param.nil? 
+					collection_r.add(item) if param.send(operator, value) #weird syntax
+				end
+			end
+			return plays_r
+		end
+
+		def select_fun(func, value)
+			collection_r = BGGCollection.new()
+			@items.each do |item|
+				collection_r.add(item) if item.send(func, value)
+			end
+			return collection_r
+		end
+		
 	end
 end

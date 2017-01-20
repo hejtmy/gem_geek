@@ -3,6 +3,8 @@ module GemGeek
     	attr_reader :id, :date, :quantity, :length, :incomplete, :nowinstats, :location, 
     		:bg_name, :bg_id, :players, :comment
     		
+		attr_accessor :bgg_item
+		
 		def initialize(play_xml = nil)
 			if !play_xml.nil?
 		        @id = play_xml['id'].to_i

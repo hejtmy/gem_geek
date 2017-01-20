@@ -49,7 +49,7 @@ module GemGeek
 		def self.get_collection(username, options = {})
 			options[:username] = username
 			collection_xml = BGGAPI.request_xml("collection", options)
-			if collection_xml.css("error").length > 0
+			if collection_xml.nil? || collection_xml.css("error").length > 0
 				nil
 			else
 				BGGCollection.new(collection_xml)

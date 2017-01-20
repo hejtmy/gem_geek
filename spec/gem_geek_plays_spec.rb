@@ -2,8 +2,9 @@ require 'spec_helper'
 
 describe GemGeek do
     let!(:username){'Tatsukochi'}
-    let!(:plays){GemGeek.get_plays(username)}
-    
+    let(:get_plays){GemGeek.get_plays(username)}
+    plays = GemGeek.get_plays('Tatsukochi')
+
     it "download games without issues" do
         expect(plays.first).not_to be nil
     end

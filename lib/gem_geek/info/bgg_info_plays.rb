@@ -19,8 +19,8 @@ module GemGeekInfo
             end
             unique_players = plays.unique_players
             results[:players] = {}
-            unique_players.each do |game_id|
-                results[:players][player] = analyse_player(game_id)
+            unique_players.each do |name|
+                results[:players][name] = analyse_player(name)
             end
             results
         end
@@ -36,9 +36,10 @@ module GemGeekInfo
         end
         
         def analyse_player(name)
-            plays = @plays.with_player(name)
+            plays = @plays.with_players(name)
             results[:plays_total] = plays.count
-            results[:wins] = plays.each {|play| play}
+            wins = 0
+            results[:wins] = plays.each {|play| wins +=1 if play.winners.include?(name)}
             results
         end
         

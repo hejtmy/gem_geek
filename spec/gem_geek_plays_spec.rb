@@ -39,11 +39,11 @@ describe GemGeek do
         pandemic = GemGeek.get_item(161936)
         pandemic_plays.plays.each do |play|
             play.bgg_item = pandemic
-            [play.players.length, 0].should include play.winners.length
+            [play.players.length, 0].should include play.better_winners.length
         end
         legendary_plays.plays.each do |play|
             play.bgg_item = legendary
-            [play.players.length, 0].should include play.winners.length
+            [play.players.length, 0].should include play.better_winners.length
         end
     end
     it "donwloads correct number of plays" do

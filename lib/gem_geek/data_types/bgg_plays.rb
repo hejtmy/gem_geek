@@ -68,6 +68,10 @@ module GemGeek
 			uniques
 		end
 		
+		def unique_locations
+			find_unique(:location)
+		end
+		
 		#selects games based on string of the name
 		def game(name)
 			raise ArgumentError, 'BGGPlays::game Argument is not string' unless name.is_a? String 

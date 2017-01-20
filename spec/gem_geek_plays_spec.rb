@@ -33,4 +33,15 @@ describe GemGeek do
     it "doesn't fail when wrong parameters are passed to bgg_plays" do
     
     end
+    
+    it 'correctly deals with cooperative plays' do
+        pandemic_plays = plays.game_id(161936)
+        legendary_plays = plays.game_id(146652)
+        pandemic_plays.plays.each do |play|
+            [play.players.length, 0].should include play.winners.length
+        end
+        legendary_plays.plays.each do |play|
+            [play.players.length, 0].should include play.winners.length
+        end
+    end
 end

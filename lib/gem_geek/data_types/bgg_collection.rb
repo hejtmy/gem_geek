@@ -84,6 +84,5 @@ module GemGeek
 			end
 			return collection_r
 		end
-		
 	end
 end

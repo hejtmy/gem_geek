@@ -4,13 +4,28 @@ module GemGeek
 	class BGGItem < BGGBase
 
 		attr_reader :id, :type, :thumbnail, :image, :name, :description, :year_published, :min_players, :max_players,
-			:playing_time, :min_playing_time, :max_playing_time, :statistics, :families
+			:playing_time, :min_playing_time, :max_playing_time, :statistics, :families, :designers, :publishers, 
+			:mechanics, :categories
 
 		def initialize(xml, api = 2)
 			fill_data(xml, api)
 		end
 		
+		def is_cooperative
+			link_has(@mechanics, "name", "Co-operative Play")
+		end
+		
 		private
+		def link_has(links, key, value)
+			#converts key string to parameter
+			# selects if
+			links.each do |link|
+				param = link.send(key)
+				return true if not param.nil? && param == value 
+			end
+			return false
+		end
+		
 		def fill_data(xml, api)
 			@api = api
 			if !xml.nil?

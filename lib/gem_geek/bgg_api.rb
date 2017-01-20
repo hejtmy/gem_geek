@@ -23,7 +23,7 @@ module BGGAPI
     else
       api_path = "#{API_1_ROOT}/#{type}/#{options[:id]}?stats=#{options[:stats] ? 1 : 0}"
     end
-    # p api_path
+    puts api_path
     value = self.retryable(tries: options[:retries], on: OpenURI::HTTPError) do
       open(api_path, ssl_verify_mode: SSL_SETTINGS) do |file|
         if file.status[0] != "200"

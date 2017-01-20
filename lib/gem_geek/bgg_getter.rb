@@ -67,19 +67,23 @@ module GemGeek
 		
 		def self.get_plays(username, options = {})
 			options[:username] = username
-			options[:page] = 0 
+			options = {page: 0, max: 0}.merge(options)
 			# this gets a bit more complicated 
 			# BGG allows only downloading games in bunch of 201, so we need to loop until we get all of it
 			plays = BGGPlays.new()
+			total_plays = 0
 			while true do
 				options[:page] += 1
 				plays_xml = BGGAPI.request_xml("plays", options)
 				num_results = plays_xml.root.children.count
-				puts num_results
 				plays.add_plays(plays_xml)
+				total_plays += num_results/2 #weird BGG stuff
 				break if num_results < 201
+				break if options[:max] > 0 && total_plays > options[:max]
 			end
-			plays
+			#removing last N occurences, so we return :max element
+			plays.plays.pop(total_plays-options[:max])
+			return plays
 		end
 	end
 end

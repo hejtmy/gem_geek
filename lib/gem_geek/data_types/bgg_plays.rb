@@ -28,6 +28,12 @@ module GemGeek
 			return true
 		end
 		
+		def select_first(num)
+			raise ArgumentError, 'BGGPlays::select_first Argument is not integer' unless num.is_a? Integer
+			return if num < 1
+			@plays = @plays.first(num)
+		end
+		
 		def play_exists?(id)
 			@plays.each { |play| if play.id == id then return true end}
 			return false

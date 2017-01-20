@@ -82,7 +82,7 @@ module GemGeek
 				break if options[:max] > 0 && total_plays > options[:max]
 			end
 			#removing last N occurences, so we return :max element
-			plays.plays.first(options[:max]) if options[:max] > 0
+			plays.select_first(options[:max])
 			return plays
 		end
 	end

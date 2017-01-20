@@ -7,7 +7,7 @@ describe GemGeek do
   it 'sorts out cooperative and competitive games' do
       takenoko = GemGeek.get_item(70919)
       mechs = GemGeek.get_item(209010)
-      expect(takenoko.is_cooperative).to_be false  
-      expect(mechs.is_cooperative).to_be true  
+      expect(takenoko.is_cooperative).to be false  
+      expect(mechs.is_cooperative).to be true  
   end
 end

@@ -7,10 +7,11 @@ module GemGeekInfo
         end
         
         def analyse(game_id)
+            plays = @plays.game_id(game_id)
+            plays_total = plays.
             
         end
         
         private
-        
     end
 end

@@ -4,6 +4,11 @@ module GemGeekInfo
             play_info = BGGInfoPlays.new(plays)
             play_info.analyse_game(options[:id])
         end
+        
+        def self.get_plays_info(plays, options)
+            play_info = BGGInfoPlays.new(plays)
+            play_info.analyse
+        end
     end
 end
 

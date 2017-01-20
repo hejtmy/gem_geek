@@ -45,4 +45,12 @@ describe GemGeek do
             [play.players.length, 0].should include play.winners.length
         end
     end
+    it "donwloads correct number of plays" do
+        plays_limited = GemGeek.get_plays(username, {max: 10})
+        plays_extreme = GemGeek.get_plays(username, {max: 100000})
+        plays_unlimited = GemGeek.get_plays(username, {max: 0})
+        expect(plays_limited.plays.length).to be 10
+        expect(plays_unlimited.plays.length).to be > 10
+        expect(plays_extreme.plays.length).to be > 0
+    end
 end

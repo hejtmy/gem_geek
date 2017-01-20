@@ -4,8 +4,9 @@ module GemGeek
 	class BGGCollection < BGGBase
 
 		attr_accessor :count, :items
-
-		def initialize(xml)
+		attr_writer :items
+		
+		def initialize(xml = nil)
 			if !xml.nil?
 				@count = get_integer(xml, "items", "totalitems")
 				@items = []
@@ -13,7 +14,7 @@ module GemGeek
 					@items.push(BGGCollectionItem.new(item))
 				end
 			else
-				@count = -1
+				@count = 0
 				@items = []
 			end
 		end
@@ -23,42 +24,44 @@ module GemGeek
 			item ? item.status : nil
 		end
 
-		def get_owned
+		def owned
 			return filter_by(:own)
 		end
 
-		def get_previously_owned
+		def previously_owned
 			return filter_by(:prev_owned)
 		end
 
-		def get_wants
+		def wants
 			return filter_by(:want)
 		end
 
-		def get_want_to_play
+		def want_to_play
 			return filter_by(:want_to_play)
 		end
 
-		def get_want_to_buy
+		def want_to_buy
 			return filter_by(:want_to_buy)
 		end
 
-		def get_wishlist
+		def wishlist
 			return filter_by(:wishlist)
 		end
 
-		def get_preordered
+		def preordered
 			return filter_by(:preordered)
 		end
 
-		def get_for_trade
+		def for_trade
 			return filter_by(:for_trade)
 		end
 		
 		private
 
 		def filter_by(key)
-			return @items.select { |x| x.status[key] }
+			collection = BGGCollection.new()
+			collection.items = @items.select { |x| x.status[key] }
+			return collection
 		end
 	end
 end

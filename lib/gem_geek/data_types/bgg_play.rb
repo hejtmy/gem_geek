@@ -72,10 +72,10 @@ module GemGeek
 	    end
 		
 		def game
-			if @bgg_game.nil?
-				@bgg_game = GemGeek.get_item(bg_id)
+			if @bgg_item.nil?
+				@bgg_item = GemGeek.get_item(bg_id)
 			end
-			@bgg_game
+			@bgg_item
 		end
 		
 	    private

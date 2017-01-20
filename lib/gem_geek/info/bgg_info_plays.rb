@@ -1,4 +1,4 @@
-module GemGeek
+module GemGeekInfo
     class BGGInfoPlays
         attr_reader :plays
         

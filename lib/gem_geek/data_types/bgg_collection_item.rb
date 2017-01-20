@@ -28,8 +28,8 @@ module GemGeek
 			@num_plays = get_integer(xml, "numplays")
 		end
 
-		def bgg_item(stat = true)
-			GemGeek.get_item(@id, statistics: stat)
+		def get_item(stats = true)
+			GemGeek.get_item(@id, statistics: stats)
 		end
 	end
 end

@@ -2,8 +2,9 @@ require 'spec_helper'
 
 describe GemGeek do
     let!(:username){'Tatsukochi'}
-    let!(:plays){GemGeek.get_plays(username)}
-    
+    let(:get_plays){GemGeek.get_plays(username)}
+    plays = GemGeek.get_plays('Tatsukochi')
+
     it "download games without issues" do
         expect(plays.first).not_to be nil
     end
@@ -34,6 +35,16 @@ describe GemGeek do
     
     end
     
+    it 'correctly deals with cooperative plays' do
+        pandemic_plays = plays.game_id(161936)
+        legendary_plays = plays.game_id(146652)
+        pandemic_plays.plays.each do |play|
+            [play.players.length, 0].should include play.winners.length
+        end
+        legendary_plays.plays.each do |play|
+            [play.players.length, 0].should include play.winners.length
+        end
+    end
     it "donwloads correct number of plays" do
         plays_limited = GemGeek.get_plays(username, {max: 10})
         plays_extreme = GemGeek.get_plays(username, {max: 100000})
@@ -42,5 +53,4 @@ describe GemGeek do
         expect(plays_unlimited.plays.length).to be > 10
         expect(plays_extreme.plays.length).to be > 0
     end
-    
 end

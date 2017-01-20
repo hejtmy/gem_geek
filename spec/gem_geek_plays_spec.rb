@@ -35,8 +35,8 @@ describe GemGeek do
         pandemic_plays = plays.game_id(161936)
         legendary_plays = plays.game_id(146652)
         #BGG have problmes with so many similar requests. This needs to be avoided
-        legendary = GameGeek.get_item(146652)
-        pandemic = GameGeek.get_item(161936)
+        legendary = GemGeek.get_item(146652)
+        pandemic = GemGeek.get_item(161936)
         pandemic_plays.plays.each do |play|
             play.bgg_item = pandemic
             [play.players.length, 0].should include play.winners.length

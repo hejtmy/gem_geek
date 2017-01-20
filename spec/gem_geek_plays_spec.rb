@@ -31,17 +31,18 @@ describe GemGeek do
         expect(plays.play_id(21309136).plays.length).to be 1
     end
     
-    it "doesn't fail when wrong parameters are passed to bgg_plays" do
-    
-    end
-    
     it 'correctly deals with cooperative plays' do
         pandemic_plays = plays.game_id(161936)
         legendary_plays = plays.game_id(146652)
+        #BGG have problmes with so many similar requests. This needs to be avoided
+        legendary = GameGeek.get_item(146652)
+        pandemic = GameGeek.get_item(161936)
         pandemic_plays.plays.each do |play|
+            play.bgg_item = pandemic
             [play.players.length, 0].should include play.winners.length
         end
         legendary_plays.plays.each do |play|
+            play.bgg_item = legendary
             [play.players.length, 0].should include play.winners.length
         end
     end

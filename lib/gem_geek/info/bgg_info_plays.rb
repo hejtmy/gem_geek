@@ -29,7 +29,7 @@ module GemGeekInfo
             plays = @plays.game_id(game_id)
             results = {}
             results[:plays_total] = plays.count
-            this_year = Date.new(Date.today.year, 1 ,1)
+            this_year = Date.new(Date.today.year, 1, 1)
             results[:plays_this_year] = plays.after_date(this_year).count
             results[:plays_last_year] = plays.before_date(this_year).after_date(this_year.prev_year).count
             results
@@ -37,9 +37,16 @@ module GemGeekInfo
         
         def analyse_player(name)
             plays = @plays.with_players(name)
+            results = {}
             results[:plays_total] = plays.count
             wins = 0
-            results[:wins] = plays.each {|play| wins +=1 if play.winners.include?(name)}
+            plays.plays.each {|play| wins +=1 if play.winners.include?(name)}
+            results[:wins] = wins 
+            results[:games] = {}
+            unique_games = plays.unique_game_id
+            unique_games.each do |game_id|
+                results[:games][game_id] = analyse_game(game_id)
+            end
             results
         end
         

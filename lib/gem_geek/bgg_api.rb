@@ -46,7 +46,11 @@ module BGGAPI
       return yield
     rescue retry_exception => e
       puts e
-      retry if (retries -= 1) > 0
+      if (retries -= 1) > 0 
+        retry 
+      else
+        return nil
+      end
     end
     yield
   end

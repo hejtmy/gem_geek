@@ -1,7 +1,8 @@
 module GemGeek
     class BGGPlay < BGGBase
-    	attr_reader :id, :date, :quantity, :length, :incomplete, :nowinstats, :location, :bg_name, :bg_id, :players, :comment
-    	
+    	attr_reader :id, :date, :quantity, :length, :incomplete, :nowinstats, :location, 
+    		:bg_name, :bg_id, :players, :comment
+    		
 		def initialize(play_xml = nil)
 			if !play_xml.nil?
 		        @id = play_xml['id'].to_i
@@ -15,6 +16,7 @@ module GemGeek
 		        @bg_id = get_integer(play_xml, 'item', 'objectid')
 		        @players = add_players(play_xml)
 		        @comment = get_comment(play_xml)
+		        @bgg_item = nil
 			else
 		        @id = -1
 		        @data = "-----"
@@ -27,6 +29,7 @@ module GemGeek
 		        @bg_id = 0
 		        @players = []
 		        @comment = ""
+		        @bgg_item = nil
 			end
 		end
 		
@@ -50,6 +53,9 @@ module GemGeek
 			@players.each do |player|
 				winners.push(player) if player.win
 			end
+			if game.is_cooperative #pushes everybody as a winner
+				winners = @players if winners.length > 1
+			end
 			winners
 		end
 		
@@ -59,10 +65,17 @@ module GemGeek
 	    	(names - players).empty?
 	    end
 	    
-	    def group_size()
+	    def group_size
 	    	@players.length 
 	    end
-
+		
+		def game
+			if @bgg_game.nil?
+				@bgg_game = GemGeek.get_item(bg_id)
+			end
+			@bgg_game
+		end
+		
 	    private
 	    def parse_date(date_string)
 	    	date_string.empty? ? nil : Date.strptime(date_string, "%Y-%m-%d")

@@ -55,10 +55,15 @@ module GemGeek
 			@players.each do |player|
 				winners.push(player) if player.win
 			end
-			if game.is_cooperative #pushes everybody as a winner
-				winners = @players if winners.length > 1
-			end
 			winners
+		end
+		
+		def better_winners #this is because of BGG load
+			wins = winners
+			if game.is_cooperative #pushes everybody as a winner
+				wins = @players if wins.length > 1
+			end
+			wins
 		end
 		
 	    def has_players(names)

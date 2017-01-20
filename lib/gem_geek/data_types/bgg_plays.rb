@@ -57,6 +57,17 @@ module GemGeek
 			find_unique(:bg_id)
 		end
 		
+		def unique_players
+			uniques = []
+			@plays.each do |play|
+				players = play.players
+				players.each do |player|
+					uniques.push(player.name) unless uniques.include?(player.name)
+				end
+			end
+			uniques
+		end
+		
 		#selects games based on string of the name
 		def game(name)
 			raise ArgumentError, 'BGGPlays::game Argument is not string' unless name.is_a? String 

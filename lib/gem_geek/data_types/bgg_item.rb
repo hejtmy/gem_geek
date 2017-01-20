@@ -21,7 +21,7 @@ module GemGeek
 			# selects if
 			links.each do |link|
 				param = link.send(key)
-				return true if not param.nil? && param == value 
+				return true if param == value
 			end
 			return false
 		end

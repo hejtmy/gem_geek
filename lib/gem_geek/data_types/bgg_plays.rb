@@ -13,7 +13,12 @@ module GemGeek
 				add(play)
 			end
 		end
-
+		
+		
+		def count
+			@plays.length
+		end
+		
 		# Adds a new BGGPlay into the array
 		def add(play)
 			if play == nil then return end
@@ -40,12 +45,16 @@ module GemGeek
 		end
 		
 		def remove(id)
-
 		end
 		
 		def play_id(id)
 			raise ArgumentError, 'BGGPlays::play_id Argument is not integer' unless id.is_a? Integer
 			select(:id, id)
+		end
+		
+		#simple stats
+		def unique_game_id
+			find_unique(:bg_id)
 		end
 		
 		#selects games based on string of the name
@@ -122,6 +131,16 @@ module GemGeek
 				plays_r.add(play) if play.send(func, value)
 			end
 			return plays_r
+		end
+		
+		def find_unique(key)
+			uniques = []
+			@plays.each do |play|
+				param = play.send(key)
+				next if param.nil? 
+				uniques.push(param) unless uniques.include?(param)
+			end
+			uniques
 		end
     end
 end

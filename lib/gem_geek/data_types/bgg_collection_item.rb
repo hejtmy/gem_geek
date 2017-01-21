@@ -21,13 +21,23 @@ module GemGeek
 				:want_to_play => get_boolean(xml, "status", "wanttoplay"),
 				:want_to_buy => get_boolean(xml, "status", "wanttobuy"),
 				:wishlist => get_boolean(xml, "status", "wishlist"),
-				:wishlist_priority => get_integer(xml, "status", "wishlistpriority"),
 				:preordered => get_boolean(xml, "status", "preordered"),
+				:wishlist_priority => get_integer(xml, "status", "wishlistpriority"),
 				:last_modified => get_datetime(xml, "status", "lastmodified")
 			}
 			@num_plays = get_integer(xml, "numplays")
 		end
-
+		
+		def in_collection
+			!list_statuses.empty?
+		end
+		
+		def list_statuses
+			stat = @status.map{|key, value| key if value}
+			stat.pop(2) #removes last modified and wishlist priority (not a boolean)
+			stat.compact! #removes nils
+		end
+		
 		def get_item(stats = true)
 			GemGeek.get_item(@id, statistics: stats)
 		end

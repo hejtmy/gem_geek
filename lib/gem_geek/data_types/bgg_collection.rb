@@ -18,12 +18,21 @@ module GemGeek
 				@items = []
 			end
 		end
-
+		
+		def add(item)
+			#some validation???
+			@items.push(item)
+		end
+		
 		def status_of(id)
 			item = @items.find { |x| x.id == id}
 			item ? item.status : nil
 		end
-
+		
+		def in_collection
+			return select(:in_collection, true)
+		end
+		
 		def owned
 			return filter_by(:own)
 		end
@@ -74,7 +83,7 @@ module GemGeek
 					collection_r.add(item) if param.send(operator, value) #weird syntax
 				end
 			end
-			return plays_r
+			return collection_r
 		end
 
 		def select_fun(func, value)

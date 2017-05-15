@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Luk\xC3\xA1\xC5\xA1 Hejtm\xC3\xA1nek"]
   spec.email         = ["hejtmy@gmail.com"]
 
-  spec.summary       = "Write a short summary, because Rubygems requires one"
-  spec.description   = "Write a longer description or delete this line"
+  spec.summary       = "Ruby gem that allows manipulation with boardgamegeek.com data"
+  spec.description   = "Gem provides simple interface that donwloads various bgg data, parses returned contents and serves ruby objects. As additional functionality, gem also computes some simple play and collection statistics"
   spec.homepage      = ""
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

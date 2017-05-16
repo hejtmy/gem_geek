@@ -27,6 +27,7 @@ module GemGeek
 		Helpers.except_nested(json, '^O')
 	end
 end
+
 require 'gem_geek/helpers'
 require 'gem_geek/version'
 require 'gem_geek/bgg_getter'

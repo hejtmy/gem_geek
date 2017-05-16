@@ -8,8 +8,8 @@ require 'open-uri'
 
 module BGGAPI
   BGG_API2_URL = "https://boardgamegeek.com/xmlapi2"
-  SLEEP = 0.25
-  RETRIES = 3
+  SLEEP = 0.5
+  RETRIES = 5
   
   WAITING_PERIOD = 1 #in s
 

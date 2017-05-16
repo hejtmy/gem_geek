@@ -2,7 +2,6 @@
 
 #modified from https://github.com/AcceptableIce/board-game-gem/
 
-require 'json'
 module GemGeek
 	module BGGGetter
 		def self.get_item(id, statistics = false, options = {}, api = 2)
@@ -88,8 +87,10 @@ module GemGeek
 	end
 end
 
+require 'oj'
+require 'json'
+require 'gem_geek/helpers'
 require 'gem_geek/bgg_api'
-
 require 'gem_geek/data_types/bgg_base'
 require 'gem_geek/data_types/bgg_base'
 require 'gem_geek/data_types/bgg_item'

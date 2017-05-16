@@ -1,6 +1,7 @@
 # GemGeek
 
 [![Build Status](https://travis-ci.org/hejtmy/gem_geek.svg?branch=master)](https://travis-ci.org/hejtmy/gem_geek)
+[![Coverage Status](https://coveralls.io/repos/github/hejtmy/gem_geek/badge.svg?branch=master)](https://coveralls.io/github/hejtmy/gem_geek?branch=master)
 
 This is ruby gem to collect data from BGG and it relies heavilly and was also extensively modified from the gem board-game-gem by AcceptableIce
 https://github.com/AcceptableIce/board-game-gem/

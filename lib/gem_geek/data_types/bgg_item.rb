@@ -123,6 +123,7 @@ module GemGeek
 			@name = name
 		end
 		def self.generate_categories(hash)
+			return nil if hash.nil?
 			categories = []
 			hash.each{|h| categories.push(self.new(h[:id], h[:value])) }
 			return categories

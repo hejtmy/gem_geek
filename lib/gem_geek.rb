@@ -26,6 +26,12 @@ module GemGeek
 		Helpers.except_nested(json, '^o')
 		Helpers.except_nested(json, '^O')
 	end
+	
+	
+  def self.parse_date(date_string)
+		date_string.empty? ? nil : Date.strptime(date_string, "%Y-%m-%d")
+  end
+	
 end
 
 require 'gem_geek/helpers'

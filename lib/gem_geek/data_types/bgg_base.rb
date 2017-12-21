@@ -2,6 +2,11 @@
 
 module GemGeek
 	class BGGBase
+		
+		def to_json
+			JSON[Oj.dump(self)]
+		end
+		
 		protected
 
 		def get_value(xml, path, key = nil)

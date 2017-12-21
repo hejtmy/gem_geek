@@ -21,17 +21,17 @@ module GemGeek
 	end
 	
 	#basically just Oj dump, but removes any class names from the result
-	def self.to_pure_json(bgg_thing)
+	def self.to_json(bgg_thing)
 		json = JSON(Oj.dump(bgg_thing))
-		Helpers.except_nested(json, '^o')
-		Helpers.except_nested(json, '^O')
+		json = Helpers.except_nested(json, '^o')
+		json = Helpers.except_nested(json, '^O')
 	end
 	
-	def self.to_json(bgg_thing)
+	def self.to_oj_json(bgg_thing)
 		JSON[Oj.dump(bgg_thing)]
 	end
 	
-	def self.from_json(json_thing)
+	def self.from_oj_json(json_thing)
 		Oj.load(JSON[json_thing])
 	end
 	

@@ -4,7 +4,11 @@ module GemGeek
 	class BGGBase
 		
 		def to_json
-			JSON[Oj.dump(self)]
+			GemGeek.to_json(self)
+		end
+		
+		def to_oj_json
+			GemGeek.to_oj_json(self)
 		end
 		
 		protected

@@ -28,7 +28,7 @@ module GemGeek
 	end
 	
 	def self.to_oj_json(bgg_thing)
-		JSON[Oj.dump(bgg_thing)]
+		JSON(Oj.dump(bgg_thing))
 	end
 	
 	def self.from_oj_json(json_thing)
